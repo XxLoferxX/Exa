@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clientes</title>
+</head>
+<body>
+<h1>Lista de Clientes</h1>
+<ul id="clientes-list"></ul>
+
+<script>
+    fetch("http://localhost:8080/clientes")
+        .then(response => response.json())
+        .then(clientes => {
+            const lista = document.getElementById("clientes-list");
+            clientes.forEach(c => {
+                const item = document.createElement("li");
+                item.textContent = `${c.nombre} ${c.apellido} - ${c.documento}`;
+                lista.appendChild(item);
+            });
+        });
+</script>
+</body>
+</html>
