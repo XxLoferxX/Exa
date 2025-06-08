@@ -1,22 +1,19 @@
-2025-04-22T00:03:29.809-04:00  INFO 4948 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Starting AlojamientoApplication using Java 21.0.1 with PID 4948 (D:\PrimerParcialSis414\alojamiento\build\classes\java\main started by HP in D:\PrimerParcialSis414\alojamiento)
-2025-04-22T00:03:29.819-04:00  INFO 4948 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T00:03:30.068-04:00  INFO 4948 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-04-22T00:03:30.069-04:00  INFO 4948 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-04-22T00:03:33.825-04:00  INFO 4948 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T00:03:33.973-04:00  INFO 4948 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
-2025-04-22T00:03:36.284-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T00:03:36.414-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T00:03:36.415-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T00:03:36.557-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-22T00:03:36.557-04:00  INFO 4948 --- [alojamiento] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6482 ms
-2025-04-22T00:03:37.093-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T00:03:37.537-04:00  INFO 4948 --- [alojamiento] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T00:03:37.928-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T00:03:39.351-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T00:03:39.554-04:00  INFO 4948 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T00:03:40.102-04:00  INFO 4948 --- [alojamiento] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-04-22T00:03:40.104-04:00  INFO 4948 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T00:03:40.398-04:00  INFO 4948 --- [alojamiento] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-05-14T20:38:52.570-04:00  INFO 1524 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Starting AlojamientoApplication using Java 21.0.1 with PID 1524 (D:\PrimerParcialSis414\alojamiento\build\classes\java\main started by HP in D:\PrimerParcialSis414\alojamiento)
+2025-05-14T20:38:52.607-04:00  INFO 1524 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-14T20:38:53.064-04:00  INFO 1524 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-14T20:38:53.064-04:00  INFO 1524 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-14T20:38:58.398-04:00  INFO 1524 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-14T20:38:58.767-04:00  INFO 1524 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 265 ms. Found 3 JPA repository interfaces.
+2025-05-14T20:39:02.087-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-14T20:39:02.607-04:00  INFO 1524 --- [alojamiento] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9541 ms
+2025-05-14T20:39:03.898-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-14T20:39:05.881-04:00  INFO 1524 --- [alojamiento] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-14T20:39:06.703-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-14T20:39:12.309-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-14T20:39:13.394-04:00  INFO 1524 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-14T20:39:16.338-04:00  INFO 1524 --- [alojamiento] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-14T20:39:16.342-04:00  INFO 1524 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-14T20:39:17.271-04:00  INFO 1524 --- [alojamiento] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -24,19 +21,59 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-22T00:03:42.932-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T00:03:43.453-04:00  INFO 4948 --- [alojamiento] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:03:44.223-04:00  WARN 4948 --- [alojamiento] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T00:03:44.356-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-04-22T00:03:47.114-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-04-22T00:03:47.775-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-04-22T00:03:48.097-04:00  INFO 4948 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-22T00:03:48.123-04:00  INFO 4948 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Started AlojamientoApplication in 21.245 seconds (process running for 26.614)
-2025-04-22T00:08:09.265-04:00  INFO 4948 --- [alojamiento] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T00:08:09.266-04:00  INFO 4948 --- [alojamiento] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T00:08:09.272-04:00  INFO 4948 --- [alojamiento] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2025-04-22T00:42:54.433-04:00  WARN 4948 --- [alojamiento] [http-nio-8080-exec-4] c.a.a.controller.ClienteController       : Cliente no encontrado con ID: 99999
-2025-04-22T00:43:16.828-04:00  WARN 4948 --- [alojamiento] [http-nio-8080-exec-7] c.a.a.controller.ClienteController       : Cliente no encontrado con ID: 1
-2025-04-22T00:43:19.606-04:00  WARN 4948 --- [alojamiento] [http-nio-8080-exec-8] c.a.a.controller.ClienteController       : Cliente no encontrado con ID: 1
-2025-04-22T00:58:48.669-04:00  INFO 4948 --- [alojamiento] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T00:58:49.199-04:00  INFO 4948 --- [alojamiento] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-14T20:39:24.193-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-14T20:39:24.451-04:00  INFO 1524 --- [alojamiento] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-14T20:39:25.649-04:00  WARN 1524 --- [alojamiento] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-14T20:39:25.803-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-14T20:39:27.504-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-14T20:39:27.664-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-14T20:39:27.781-04:00  INFO 1524 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-14T20:39:27.792-04:00  INFO 1524 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Started AlojamientoApplication in 40.481 seconds (process running for 54.189)
+2025-05-14T20:39:27.795-04:00  INFO 1524 --- [alojamiento] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-14T20:39:27.856-04:00  INFO 1524 --- [alojamiento] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-14T20:39:27.860-04:00  INFO 1524 --- [alojamiento] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-14T20:39:27.867-04:00  WARN 1524 --- [alojamiento] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-05-14T20:39:27.868-04:00  INFO 1524 --- [alojamiento] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-14T20:39:27.870-04:00  INFO 1524 --- [alojamiento] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-14T20:39:35.703-04:00  INFO 11676 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Starting AlojamientoApplication using Java 21.0.1 with PID 11676 (D:\PrimerParcialSis414\alojamiento\build\classes\java\main started by HP in D:\PrimerParcialSis414\alojamiento)
+2025-05-14T20:39:35.706-04:00  INFO 11676 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-14T20:39:35.774-04:00  INFO 11676 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-14T20:39:35.775-04:00  INFO 11676 --- [alojamiento] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-14T20:39:36.612-04:00  INFO 11676 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-14T20:39:36.702-04:00  INFO 11676 --- [alojamiento] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2025-05-14T20:39:37.324-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-14T20:39:37.340-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-14T20:39:37.341-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-14T20:39:37.397-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-14T20:39:37.398-04:00  INFO 11676 --- [alojamiento] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
+2025-05-14T20:39:37.645-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-14T20:39:37.730-04:00  INFO 11676 --- [alojamiento] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-14T20:39:37.782-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-14T20:39:38.190-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-14T20:39:38.226-04:00  INFO 11676 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-14T20:39:38.459-04:00  INFO 11676 --- [alojamiento] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-14T20:39:38.463-04:00  INFO 11676 --- [alojamiento] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-14T20:39:38.527-04:00  INFO 11676 --- [alojamiento] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-14T20:39:39.634-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-14T20:39:39.720-04:00  INFO 11676 --- [alojamiento] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-14T20:39:40.068-04:00  WARN 11676 --- [alojamiento] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-14T20:39:40.094-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-14T20:39:40.441-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-14T20:39:40.520-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-14T20:39:40.576-04:00  INFO 11676 --- [alojamiento] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-14T20:39:40.589-04:00  INFO 11676 --- [alojamiento] [restartedMain] c.a.alojamiento.AlojamientoApplication   : Started AlojamientoApplication in 5.556 seconds (process running for 6.903)
+2025-05-14T20:40:35.937-04:00  INFO 11676 --- [alojamiento] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-14T20:40:35.973-04:00  INFO 11676 --- [alojamiento] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-14T20:40:35.977-04:00  INFO 11676 --- [alojamiento] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-14T20:40:35.983-04:00  WARN 11676 --- [alojamiento] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-05-14T20:40:35.984-04:00  INFO 11676 --- [alojamiento] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-14T20:40:35.986-04:00  INFO 11676 --- [alojamiento] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

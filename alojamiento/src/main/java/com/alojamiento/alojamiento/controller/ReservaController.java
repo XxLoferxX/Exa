@@ -1,6 +1,10 @@
 package com.alojamiento.alojamiento.controller;
 
+import com.alojamiento.alojamiento.model.Cliente;
+import com.alojamiento.alojamiento.model.Habitacion;
 import com.alojamiento.alojamiento.model.Reserva;
+import com.alojamiento.alojamiento.repository.ClienteRepository;
+import com.alojamiento.alojamiento.repository.HabitacionRepository;
 import com.alojamiento.alojamiento.repository.ReservaRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +22,12 @@ public class ReservaController {
     @Autowired
     private ReservaRepository reservaRepository;
 
+    @Autowired
+    private ClienteRepository clienteRepository;
+
+    @Autowired
+    private HabitacionRepository habitacionRepository;
+
     @GetMapping
     public List<Reserva> getAll() {
         return reservaRepository.findAll();
@@ -34,8 +44,23 @@ public class ReservaController {
     }
 
     @PostMapping
-    public ResponseEntity<Reserva> create(@RequestBody Reserva r) {
-        return new ResponseEntity<>(reservaRepository.save(r), HttpStatus.CREATED);
+    public ResponseEntity<?> create(@RequestBody Reserva r) {
+        Optional<Cliente> clienteOpt = clienteRepository.findById(r.getCliente().getId());
+        Optional<Habitacion> habitacionOpt = habitacionRepository.findById(r.getHabitacion().getId());
+
+        if (clienteOpt.isEmpty()) {
+            return ResponseEntity.badRequest().body("Cliente no encontrado con ID: " + r.getCliente().getId());
+        }
+
+        if (habitacionOpt.isEmpty()) {
+            return ResponseEntity.badRequest().body("Habitación no encontrada con ID: " + r.getHabitacion().getId());
+        }
+
+        r.setCliente(clienteOpt.get());
+        r.setHabitacion(habitacionOpt.get());
+
+        Reserva guardada = reservaRepository.save(r);
+        return new ResponseEntity<>(guardada, HttpStatus.CREATED);
     }
 
     @PutMapping("/{id}")
