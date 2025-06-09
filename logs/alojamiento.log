@@ -1,0 +1,81 @@
+2025-06-09T15:14:37.101-04:00 ERROR 9400 --- [alojamiento] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.org.hibernate.sql' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.org.hibernate.sql
+    Value: "DEBUG # Para ver los valores de los parámetros en las queries"
+    Origin: class path resource [application.properties] - 61:33
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG # Para ver los valores de los parámetros en las queries)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-06-09T15:15:48.451-04:00 ERROR 4912 --- [alojamiento] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.org.hibernate.sql' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.org.hibernate.sql
+    Value: "DEBUG # Para ver los valores de los parámetros en las queries"
+    Origin: class path resource [application.properties] - 61:33
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG # Para ver los valores de los parámetros en las queries)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-06-09T15:18:57.509-04:00 ERROR 12064 --- [alojamiento] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.org.hibernate.sql' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.org.hibernate.sql
+    Value: "DEBUG # Para ver los valores de los parámetros en las queries"
+    Origin: class path resource [application.properties] - 27:33
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG # Para ver los valores de los parámetros en las queries)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+

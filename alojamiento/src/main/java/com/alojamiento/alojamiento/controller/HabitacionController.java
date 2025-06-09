@@ -6,11 +6,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
 import java.util.*;
 
 @RestController
 @RequestMapping("/habitaciones")
+@SecurityRequirement(name = "bearerAuth")
 @Slf4j
 public class HabitacionController {
 
