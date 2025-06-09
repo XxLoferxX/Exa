@@ -7,29 +7,12 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
         </processorPath>
-<<<<<<< HEAD
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="alojamiento" target="21" />
-      <module name="alojamiento.main" target="21" />
-      <module name="alojamiento.test" target="21" />
-      <module name="com.alojamiento.alojamiento.test" target="21" />
-=======
         <module name="alojamiento.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="alojamiento.test" target="21" />
->>>>>>> 0232208 (add details)
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="alojamiento" options="-parameters" />
-      <module name="alojamiento.main" options="-parameters" />
-      <module name="alojamiento.test" options="-parameters" />
-      <module name="com.alojamiento.alojamiento.test" options="-parameters" />
-    </option>
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
   </component>
 </project>
