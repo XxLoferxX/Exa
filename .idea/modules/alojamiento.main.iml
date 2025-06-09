@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <module external.linked.project.id="alojamiento:main" external.linked.project.path="$MODULE_DIR$/../../alojamiento" external.root.project.path="$MODULE_DIR$/../../alojamiento" external.system.id="GRADLE" external.system.module.group="com.alojamiento" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+=======
+<module version="4">
+>>>>>>> 0232208 (add details)
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$/../../alojamiento/build/generated/sources/annotationProcessor/java/main">
       <sourceFolder url="file://$MODULE_DIR$/../../alojamiento/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
     </content>
   </component>
+<<<<<<< HEAD
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
     <output url="file://$MODULE_DIR$/../../alojamiento/build/classes/java/main" />
     <exclude-output />
@@ -102,4 +107,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:txw2:4.0.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.2" level="project" />
   </component>
+=======
+>>>>>>> 0232208 (add details)
 </module>

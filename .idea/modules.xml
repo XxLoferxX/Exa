@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alojamiento.iml" filepath="$PROJECT_DIR$/.idea/modules/alojamiento.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alojamiento.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alojamiento.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alojamiento.test.iml" filepath="$PROJECT_DIR$/.idea/modules/alojamiento.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alojamiento.alojamiento.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alojamiento.alojamiento.test.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/PrimerParcialSis414.iml" filepath="$PROJECT_DIR$/.idea/PrimerParcialSis414.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alojamiento.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alojamiento.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alojamiento.test.iml" filepath="$PROJECT_DIR$/.idea/modules/alojamiento.test.iml" />
+>>>>>>> 0232208 (add details)
     </modules>
   </component>
 </project>
