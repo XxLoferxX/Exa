@@ -3,8 +3,8 @@ package com.alojamiento.alojamiento.service;
 import com.alojamiento.alojamiento.auth.AuthResponse;
 import com.alojamiento.alojamiento.auth.LoginRequest;
 import com.alojamiento.alojamiento.auth.RegisterRequest;
-import com.alojamiento.alojamiento.model.Cliente; // <-- ¡Cambiado!
-import com.alojamiento.alojamiento.repository.ClienteRepository; // <-- ¡Cambiado!
+import com.alojamiento.alojamiento.model.Cliente;
+import com.alojamiento.alojamiento.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -42,7 +42,7 @@ public class AuthService {
                 .apellido(request.getLastname())
                 .email(request.getEmail())
                 .password(passwordEncoder.encode(request.getPassword()))
-                // Otros campos de Cliente como 'documento' o 'telefono' pueden quedar nulos o puedes añadirlos al RegisterRequest
+
                 .build();
 
         // Guardamos el nuevo Cliente en la base de datos.

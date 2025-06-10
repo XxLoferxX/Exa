@@ -3,9 +3,10 @@ package com.alojamiento.alojamiento.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails; // <-- Importante
+import org.springframework.security.core.authority.SimpleGrantedAuthority; // <-- AÑADE ESTA IMPORTACIÓN
+import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
-import java.util.Collections; // <-- Importante
+import java.util.List; // <-- AÑADE ESTA IMPORTACIÓN
 
 @Data
 @Builder
@@ -22,49 +23,45 @@ public class Cliente implements UserDetails {
     private String documento;
     private String telefono;
 
-    // --- CAMPOS AÑADIDOS PARA LA SEGURIDAD ---
-    @Column(unique = true) // El email debe ser único
+    @Column(unique = true)
     private String email;
     private String password;
-    // ------------------------------------------
 
-
-    // --- MÉTODOS OBLIGATORIOS DE USERDETAILS ---
+    // --- MÉTODO CORREGIDO ---
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-
-        return Collections.emptyList();
+        // Asignamos a cada cliente el rol de "USER".
+        // El prefijo "ROLE_" es una convención estándar de Spring Security.
+        return List.of(new SimpleGrantedAuthority("ROLE_USER"));
     }
 
     @Override
     public String getPassword() {
-
         return this.password;
     }
 
     @Override
     public String getUsername() {
-
         return this.email;
     }
 
     @Override
     public boolean isAccountNonExpired() {
-        return true; // La cuenta nunca expira
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return true; // La cuenta nunca se bloquea
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return true; // Las credenciales nunca expiran
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return true; // La cuenta siempre está habilitada
+        return true;
     }
 }

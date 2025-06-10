@@ -1,8 +1,8 @@
 package com.alojamiento.alojamiento.auth;
 
 import com.alojamiento.alojamiento.service.AuthService;
-import com.alojamiento.alojamiento.service.TokenBlacklistService; // <-- Importa el servicio
-import jakarta.servlet.http.HttpServletRequest; // <-- Importa HttpServletRequest
+import com.alojamiento.alojamiento.service.TokenBlacklistService;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class AuthController {
 
     private final AuthService authService;
-    private final TokenBlacklistService blacklistService; // <-- Inyecta el servicio
+    private final TokenBlacklistService blacklistService;
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@RequestBody LoginRequest request) {
@@ -25,7 +25,7 @@ public class AuthController {
         return ResponseEntity.ok(authService.register(request));
     }
 
-    // ¡NUEVO ENDPOINT DE LOGOUT!
+
     @PostMapping("/logout")
     public ResponseEntity<String> logout(HttpServletRequest request) {
         final String authHeader = request.getHeader("Authorization");

@@ -42,17 +42,18 @@ public class ClienteController {
     @PutMapping("/{id}")
     public ResponseEntity<Cliente> update(@PathVariable Long id, @RequestBody Cliente nuevoCliente) {
         return clienteRepository.findById(id)
-                .map(cliente -> {
-                    cliente.setNombre(nuevoCliente.getNombre());
-                    cliente.setApellido(nuevoCliente.getApellido());
-                    cliente.setDocumento(nuevoCliente.getDocumento());
-                    cliente.setTelefono(nuevoCliente.getTelefono());
-                    return ResponseEntity.ok(clienteRepository.save(cliente));
+                .map(clienteExistente -> {
+
+                    // Actualizamos todos los campos del Body
+                    clienteExistente.setNombre(nuevoCliente.getNombre());
+                    clienteExistente.setApellido(nuevoCliente.getApellido());
+                    clienteExistente.setDocumento(nuevoCliente.getDocumento());
+                    clienteExistente.setTelefono(nuevoCliente.getTelefono());
+                    clienteExistente.setEmail(nuevoCliente.getEmail());
+
+                    return ResponseEntity.ok(clienteRepository.save(clienteExistente));
                 })
-                .orElseGet(() -> {
-                    log.warn("Intento de actualizar cliente no existente. ID: {}", id);
-                    return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-                });
+                .orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).build());
     }
 
     @DeleteMapping("/{id}")

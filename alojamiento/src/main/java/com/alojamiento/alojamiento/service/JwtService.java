@@ -2,7 +2,7 @@ package com.alojamiento.alojamiento.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.stereotype.Service; // Cambiado de @Component a @Service para consistencia
+import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
@@ -13,11 +13,9 @@ public class JwtService {
 
     // Clave secreta directamente en el código, igual que el docente.
     // IMPORTANTE: Esta clave debe tener 32 bytes (256 bits) para HS256.
-    // La del docente es más larga, la truncaremos o usaremos una correcta.
-    // Usemos una correcta de 32 bytes:
     private final String SECRET = "thisIsASecretKeyThatIsAtLeast32BytesLong!";
 
-    // La librería 0.9.1 requiere este objeto SecretKey.
+
     private final SecretKey SECRET_KEY = new SecretKeySpec(SECRET.getBytes(), SignatureAlgorithm.HS256.getJcaName());
 
     /**
@@ -33,9 +31,7 @@ public class JwtService {
                 .compact();
     }
 
-    /**
-     * Extrae el nombre de usuario (el "subject") del token.
-     */
+
     public String extractUsername(String token) {
         try {
             return Jwts.parser()
@@ -45,7 +41,6 @@ public class JwtService {
                     .getSubject();
         } catch (Exception e) {
             // Si el token es inválido o ha expirado, Jwts.parser lanzará una excepción.
-            // Es bueno manejar esto, aunque sea devolviendo null.
             return null;
         }
     }

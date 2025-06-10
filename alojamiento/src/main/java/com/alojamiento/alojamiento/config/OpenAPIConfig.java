@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @OpenAPIDefinition(
-        // Cambia el título para que sea el de tu proyecto
+
         info = @Info(title = "API de Alojamiento", version = "v1"),
         security = @SecurityRequirement(name = "bearerAuth")
 )
