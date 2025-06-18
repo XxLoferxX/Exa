@@ -3,10 +3,10 @@ package com.alojamiento.alojamiento.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority; // <-- AÑADE ESTA IMPORTACIÓN
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
-import java.util.List; // <-- AÑADE ESTA IMPORTACIÓN
+import java.util.List;
 
 @Data
 @Builder

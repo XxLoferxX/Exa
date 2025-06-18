@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a962bad-6f65-4cb6-8472-497b2b7bdfcd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/OpenAPIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/OpenAPIConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/controller/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/java/com/alojamiento/alojamiento/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alojamiento/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/alojamiento/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
